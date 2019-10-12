@@ -1,0 +1,26 @@
+{
+  "name": "Tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rootMaister/Tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rootMaister/Tailwindcss/issues"
+  },
+  "homepage": "https://github.com/rootMaister/Tailwindcss#readme",
+  "dependencies": {
+    "autoprefixer": "^9.6.4",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.2"
+  }
+}
